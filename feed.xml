@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Copytop</title>
+    <link href="https://gf4bio.github.io/feed.xml" rel="self" />
+    <link href="https://gf4bio.github.io" />
+    <updated>2019-03-16T00:07:10-03:00</updated>
+    <author>
+        <name>Fábio Garcia</name>
+    </author>
+    <id>https://gf4bio.github.io</id>
+
+    <entry>
+        <title>Sua marca quer falar e você não a deixa</title>
+        <author>
+            <name>Fábio Garcia</name>
+        </author>
+        <link href="https://gf4bio.github.io/sua-marca-quer-falar-e-voce-nao-a-deixa.html"/>
+        <id>https://gf4bio.github.io/sua-marca-quer-falar-e-voce-nao-a-deixa.html</id>
+
+        <updated>2019-03-15T23:43:21-03:00</updated>
+            <summary>
+                <![CDATA[
+                    An h1 header ============ Paragraphs are separated by a blank line. 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists look like: * this one * that one * the other one Note that --- not considering the asterisk --- the actual text content starts at&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                An h1 header<br>============<br><br>Paragraphs are separated by a blank line.<br><br>2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists<br>look like:<br><br> * this one<br> * that one<br> * the other one<br><br>Note that --- not considering the asterisk --- the actual text<br>content starts at 4-columns in.<br><br>&gt; Block quotes are<br>&gt; written like so.<br>&gt;<br>&gt; They can span multiple paragraphs,<br>&gt; if you like.<br><br>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all<br>in chapters 12--14"). Three dots ... will be converted to an ellipsis.<br>Unicode is supported. ☺<br><br><br><br>An h2 header<br>------------<br><br>Here's a numbered list:<br><br> 1. first item<br> 2. second item<br> 3. third item<br><br>Note again how the actual text starts at 4 columns in (4 characters<br>from the left side). Here's a code sample:<br><br> # Let me re-iterate ...<br> for i in 1 .. 10 { do-something(i) }<br><br>As you probably guessed, indented 4 spaces. By the way, instead of<br>indenting the block, you can use delimited blocks, if you like:<br><br>~~~<br>define foobar() {<br> print "Welcome to flavor country!";<br>}<br>~~~<br><br>(which makes copying &amp; pasting easier). You can optionally mark the<br>delimited block for Pandoc to syntax highlight it:<br><br>~~~python<br>import time<br># Quick, count to ten!<br>for i in range(10):<br> # (but not *too* quick)<br> time.sleep(0.5)<br> print(i)<br>~~~<br><br><br><br>### An h3 header ###<br><br>Now a nested list:<br><br> 1. First, get these ingredients:<br><br> * carrots<br> * celery<br> * lentils<br><br> 2. Boil some water.<br><br> 3. Dump everything in the pot and follow<br> this algorithm:<br><br> find wooden spoon<br> uncover pot<br> stir<br> cover pot<br> balance wooden spoon precariously on pot handle<br> wait 10 minutes<br> goto first step (or shut off burner when done)<br><br> Do not bump wooden spoon or it will fall.<br><br>Notice again how text always lines up on 4-space indents (including<br>that last line which continues item 3 above).<br><br>Here's a link to [a website](http://foo.bar), to a [local<br>doc](local-doc.html), and to a [section heading in the current<br>doc](#an-h2-header). Here's a footnote [^1].<br><br>[^1]: Some footnote text.<br><br>Tables can look like this:<br><br>Name Size Material Color<br>------------- ----- ------------ ------------<br>All Business 9 leather brown<br>Roundabout 10 hemp canvas natural<br>Cinderella 11 glass transparent<br><br>Table: Shoes sizes, materials, and colors.<br><br>(The above is the caption for the table.) Pandoc also supports<br>multi-line tables:<br><br>-------- -----------------------<br>Keyword Text<br>-------- -----------------------<br>red Sunsets, apples, and<br> other red or reddish<br> things.<br><br>green Leaves, grass, frogs<br> and other things it's<br> not easy being.<br>-------- -----------------------<br><br>A horizontal rule follows.<br><br>***<br><br>Here's a definition list:<br><br>apples<br> : Good for making applesauce.<br><br>oranges<br> : Citrus!<br><br>tomatoes<br> : There's no "e" in tomatoe.<br><br>Again, text is indented 4 spaces. (Put a blank line between each<br>term and its definition to spread things out more.)<br><br>Here's a "line block" (note how whitespace is honored):<br><br>| Line one<br>| Line too<br>| Line tree<br><br>and images can be specified like so:<br><br>![example image](example-image.jpg "An exemplary image")<br><br>Inline math equation: $\omega = d\phi / dt$. Display<br>math should get its own line like so:<br><br>$$I = \int \rho R^{2} dV$$<br><br>And note that you can backslash-escape any punctuation characters<br>which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+            ]]>
+        </content>
+    </entry>
+</feed>
